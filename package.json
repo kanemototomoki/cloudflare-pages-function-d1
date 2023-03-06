@@ -7,6 +7,7 @@
     "dev": "wrangler pages dev --persist --d1=DB -- vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "deploy": "npm run build && wrangler pages publish pages",
     "db:create": "wrangler d1 create todo-demo",
     "db:create-table": "wrangler d1 execute todo-demo --file=./sql/todo-schema.sql",
     "db:add-todo": "wrangler d1 execute todo-demo --file=./sql/add-todo.sql"
