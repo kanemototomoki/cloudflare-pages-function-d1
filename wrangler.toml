@@ -1,0 +1,8 @@
+name = "cloudflare-pages-function-d1"
+compatibility_date = "2023-03-06"
+
+[env.local]
+[[ d1_databases ]]
+binding = "DB"
+database_name = "todo-demo"
+database_id = "44247c7a-af17-47de-b5d3-be62bc15398c"
